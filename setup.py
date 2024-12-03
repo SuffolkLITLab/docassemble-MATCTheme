@@ -44,9 +44,9 @@ def find_package_data(where='.', package='', exclude=standard_exclude, exclude_d
     return out
 
 setup(name='docassemble.MATCTheme',
-      version='0.0.1',
+      version='1.0.1',
       description=('A Docassemble Bootstrap theme for the Massachusetts Trial Court'),
-      long_description='# docassemble.MATCTheme\n\nA Docassemble Bootstrap theme for the Massachusetts Trial Court\n\n## Author\n\nSam Glover, sam.glover@suffolk.edu\n\n',
+      long_description='# docassemble.MATCTheme\r\n\r\nA Docassemble Bootstrap theme for the Massachusetts Trial Court\r\n\r\n## Author\r\n\r\nSam Glover, sam.glover@suffolk.edu\r\n\r\n',
       long_description_content_type='text/markdown',
       author='Sam Glover',
       author_email='sam.glover@suffolk.edu',
