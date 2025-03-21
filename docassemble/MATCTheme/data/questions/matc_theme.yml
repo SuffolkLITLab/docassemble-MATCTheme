@@ -1,6 +1,4 @@
 ---
-objects:
-  - al_logo: DAStaticFile.using(filename="Mass-Trial-Court-Seal-final-color.png")
----
-features:
-  bootstrap theme: bootstrap.css
+include:
+  - visual.yml
+  - questions.yml
