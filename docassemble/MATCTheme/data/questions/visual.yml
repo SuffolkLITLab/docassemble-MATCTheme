@@ -1,3 +1,4 @@
+---
 # Uncomment for testing; comment out for production
 include:
   - docassemble.MAPetitionToSealEviction:petition_to_seal_eviction.yml
@@ -7,5 +8,7 @@ objects:
 ---
 features:
   bootstrap theme: bootstrap.css
-  css: navigation.css
-#  javascript: menu.js
+  css:
+    - navigation.css
+  javascript:
+    - menu.js
