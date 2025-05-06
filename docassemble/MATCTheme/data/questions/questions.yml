@@ -30,6 +30,14 @@ subquestion: |
   This site is not a lawyer. [Find a lawyer.](https://www.mass.gov/info-details/finding-a-lawyer)
   
   Tap the {green words} in any screen for a definition or more information.
+
+  ${ collapse_template(explain_how_to_use_collapsible_templates) }
+
+  Click a 
+  <span class="dachoicehelp text-info">
+    <i class="fa fa-circle-question fa-lg"></i>
+  </span>
+  icon next to an list of choices to learn more about the option.
   
   % if chat_partners_available().help:
   Live help is currently available in this interview. Click the speech bubble
@@ -49,3 +57,9 @@ terms:
 validation code: |
   if not acknowledged_information_use:
     validation_error("You must accept the terms of use to continue.", field="acknowledged_information_use")
+---
+template: explain_how_to_use_collapsible_templates
+question: |
+  Click a dotted line with an arrow like this to read longer help information
+subquestion: |
+  Click the line again to hide the information.
