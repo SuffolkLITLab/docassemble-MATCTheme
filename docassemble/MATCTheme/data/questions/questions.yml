@@ -59,7 +59,7 @@ validation code: |
     validation_error("You must accept the terms of use to continue.", field="acknowledged_information_use")
 ---
 template: explain_how_to_use_collapsible_templates
-question: |
+subject: |
   Click a dotted line with an arrow like this to read longer help information
-subquestion: |
+content: |
   Click the line again to hide the information.
