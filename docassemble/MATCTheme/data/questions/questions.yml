@@ -37,7 +37,7 @@ subquestion: |
   <span class="dachoicehelp text-info">
     <i class="fa fa-circle-question fa-lg"></i>
   </span>
-  icon next to an list of choices to learn more about the option.
+  icon next to a list of choices to learn more about the option.
   
   % if chat_partners_available().help:
   Live help is currently available in this interview. Click the speech bubble
