@@ -1,0 +1,28 @@
+---
+template: what_is_efile_template
+subject: |
+  What is eFileMA
+content: |
+  eFileMA is the Massachusetts Trial Court's official system for electronically
+  filing court documents. It is also called File and Serve.
+
+  This website can help you securely connect to eFileMA using your existing eFileMA
+  username and password, or to make a new account.
+
+  You can manage your account from the eFileMA website after we help you make it
+  here.
+---
+id: user-wants-efile-no-specific-court
+question: |
+  Do you want to e-file this document directly with the court?
+subquestion: |
+  You may be able to electronically-file (e-file) this document with the court, if the court allows it. 
+
+  This means you don't have to print out the document. The court
+  will communicate with you through your email or phone.
+
+  You will have to provide your email to e-file this document. If you don't wish to provide that,
+  you can choose not to efile.
+fields:
+  - Do you want to e-file?: user_wants_efile
+    datatype: yesnoradio
